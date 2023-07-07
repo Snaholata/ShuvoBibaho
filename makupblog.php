@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShuvoBibaho| A Trustable Wedding Planning Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+        <img src="logo-modified.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="boot.php">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="healthtips.php">Health Tips</a>
+                <a class="dropdown-item" href="#">Makeup Guides</a>
+                <a class="dropdown-item" href="aos.php">Menu Idea</a>
+              </div>
+          </li>
+          
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Vendor
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item" href="photographer.php">Photographer</a>
+                  <a class="dropdown-item" href="mvenue.php">Venues</a>
+                  <a class="dropdown-item" href="mart.php">Makeup Artist</a>
+                  <a class="dropdown-item" href="eventplanner.php">Event Manager</a>
+                
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="clientreview.php
+                ">Client Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.php">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pofile1.php">Your Profile</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="mhome.php">Logout</a>
+            </li>
+           
+            
+          </ul>
+         
+        </div>
+      </div>
+      </nav>
+      <section class="discover-our-menu">
+        <div class="container">
+            <div class="info">
+                <div class="image-group animate-discover-menu-right">
+                    
+                        <img  src="makeup1.jpg" width="250" height="200">
+                    
+                    
+                        <img src="makeup2.jpg" width="250" height="200">
+                    
+                    
+                    
+                </div>
+             
+                
+                <div class="animate-right1">
+                    <div class="global-headline">
+                        <h2 class="sub-headline animate-discover-menu-left">
+                            <span class="first-letter">F</span>eel
+                        </h2>
+                        <h1 class="headline animate-discover-menu-right"> Beautiful </h1>
+                        <div class="asterisk"<i class="fa fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                      “I love playing with makeup. Makeup has become a thing where 
+                      it’s an art form. It’s not a thing where you use it 
+                      because you need to feel beautiful 
+                      or because you don’t like the way you look.” – Zendaya
+                    </p>
+
+                    
+                   
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+     <div class="parallax"></div>
+     
+     <div class="caption">
+         <h1>Makeup Guide</h1>
+    </div>
+    <div class="container">
+		<div class="row">
+		<div class="col-sm-4">
+				<div class="card box-shadow">
+					<img class="card-imd-top" src="mlb3.png">
+					<div class="card-body">
+						<h4 class="card-title">The Beauty Block</h4>
+						<p  class="card-text">A beauty blog blooming with fresh makeup reviews, makeup tips, tutorials, swatches and pictures</p>
+						<a href="https://blog.citybeauty.com/makeup-essentials-beginners/" class="btn btn-outline-secondary">See More</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="card box-shadow">
+					<img class="card-imd-top" src="mlb1.png">
+					<div class="card-body">
+						<h4 class="card-title">Makeup Blog by Jane Iredale</h4>
+						<p  class="card-text">Skincare makeup advices,tips, supplements suggestion by makeup artist Jane Iredale</p>
+						<a href="https://janeiredale.com/blogs/makeup-blog/" class="btn btn-outline-secondary">See More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card box-shadow">
+					<img class="card-imd-top" src="mlb2.png">
+					<div class="card-body">
+						<div class="card-body">
+                            <h4 class="card-title">Vintage Makeup Guides</h4>
+                            <p  class="card-text">It is a pleasant look back at make-up styles from the Victorian era to the late 1950’s.</p>
+                            <a href="https://vintagemakeupguide.com/about/" class="btn btn-outline-secondary">See More</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			
+	</div>
+	</div>
+	</div>
+    <div class="parallex2"></div>
+    <div class="team">
+        
+       
+        
+
+    <div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h1>Connect With Us</h1>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+  
+      
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(welcome.jpg);
+}
+h1{
+    text-align: center;
+    color: rgb(184, 194, 238);
+    margin: 30px 0 50px;
+}
+.gallery{
+    margin: 10px 50px
+}
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transition: scale(1.1); 
+}

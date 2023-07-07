@@ -1,0 +1,196 @@
+body {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+h1{
+    text-align: center;
+    color: rgb(184, 194, 238);
+    margin: 30px 0 50px;
+}
+.gallery{
+    margin: 10px 50px
+}
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transition: scale(1.1); 
+}
+  .transparent-bg{
+	background: rgba(255, 165, 0, 0.73);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+  .parallax {
+    background-image: url("r7.jpg");
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .about {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffffc7;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    position: absolute;
+    top: 120%;
+    left: 20%;
+  }
+  .caption {
+    color: #7d1935;
+    text-align: center;
+    margin-left: 20px;
+    background: transparent;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  .box h5 {
+    color: #7d1935;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+  }
+  .box p {
+    color: green;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    line-height: poppins;
+  }
+  .navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .navbar-light .navbar-brand {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .navbar-nav {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-light
+    .navbar-nav
+    .nav-link
+    .dropdown:hover
+    > .dropdown-menu
+    .dropdown
+    > .dropdown-toggle {
+    color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: green;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link {
+    padding: 0.2rem 1rem;
+  }
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: darkgreen;
+  }
+  .main {
+    display: table;
+    width: 100%;
+    background-image: url(bb.jpg);
+  }
+  
+  
+  .image img {
+    width: 100%;
+    height: 80%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .text1 {
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(255, 192, 213);
+  }
+  
+  .text2 {
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(255, 187, 0);
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    padding: 10px;
+  }
+  .des {
+    text-align: center;
+  }
+  .btn-primary{
+    background-color: #3fb93f;
+    border: 1px solid #52976d;
+  }
+  .btn-primary:hover{
+    background-color: #ecf0f1;
+    border: 1px solid #563d7c;
+  }
+  @keyframes animate {
+    0% {
+      background-position: left 0px top 10px;
+    }
+    40% {
+      background-position: left 800px top 10px;
+    }
+  }
+  .parallex2 {
+    background-image: url(team.jpg);
+    min-height: 800px;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .social a{
+    font-size: 4.5em;
+    padding: 3rem;
+  }
+  .fa-facebook{
+    color:#3b5998;
+  }
+  .fa-instagram{
+    color:#517fa4;
+  }
+  .fa-youtube{
+    color:#bb0000;
+  }
